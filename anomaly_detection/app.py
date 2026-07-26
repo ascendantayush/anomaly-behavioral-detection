@@ -38,15 +38,6 @@ from anomaly_detection.classification.classifier import AttackClassifier
 from anomaly_detection.utils.helpers import compute_basic_metrics
 
 # ---------------------------------------------------------------------------
-# Page configuration
-# ---------------------------------------------------------------------------
-st.set_page_config(
-    page_title=DASH_CFG.page_title,
-    page_icon=DASH_CFG.page_icon,
-    layout=DASH_CFG.layout,
-)
-
-# ---------------------------------------------------------------------------
 # Pipeline caching  – runs once per session, stored in st.session_state
 # ---------------------------------------------------------------------------
 
@@ -441,6 +432,11 @@ def render_threat_analytics(df: pd.DataFrame) -> None:
 
 def main() -> None:
     """Entry point for the Streamlit application."""
+    st.set_page_config(
+        page_title=DASH_CFG.page_title,
+        page_icon=DASH_CFG.page_icon,
+        layout=DASH_CFG.layout,
+    )
     st.title("AI-Powered Behavioral Anomaly Detection for Cybersecurity")
     st.caption("Real-time enterprise log monitoring with Isolation Forest, Rule Engine, and Markov Sequence Model")
 
