@@ -99,16 +99,33 @@ This project combines all three into a **hybrid detection pipeline** where each 
 
 ## Screenshots
 
-![Dashboard Overview](docs/dashboard_overview.png)
+![Dashboard Overview](<img width="1923" height="930" alt="image" src="https://github.com/user-attachments/assets/333abe8f-20b3-446f-adeb-4f89e53dcf53" />
+)
+<img width="1597" height="854" alt="image" src="https://github.com/user-attachments/assets/9a8b10d0-e3c5-4401-afac-05e6d5d2e52a" />
+<img width="1545" height="619" alt="image" src="https://github.com/user-attachments/assets/11cb78ee-10ac-43cb-aad7-4ebf784aa082" />
 *Overview tab showing KPI cards, daily event volume, attack type distribution, and risk score histogram.*
 
-![Live Alerts](docs/live_alerts.png)
+![Live Alerts](<img width="1547" height="647" alt="image" src="https://github.com/user-attachments/assets/f1ad7b1b-0db9-4aac-b257-e3ab85fb2989" />
+)
+<img width="1547" height="647" alt="image" src="https://github.com/user-attachments/assets/eead88d0-0317-4a8c-be05-69291c7e0b73" />
+<img width="1541" height="739" alt="image" src="https://github.com/user-attachments/assets/f84df4c2-4844-4301-86ec-b899130607d6" />
+
 *Filterable alert feed with severity indicators, risk scores, and expandable JSON detail view for each alert.*
 
-![Entity Explorer](docs/entity_explorer.png)
+![Entity Explorer](<img width="1478" height="843" alt="image" src="https://github.com/user-attachments/assets/19cd80aa-fbb7-4ee2-9b8b-61cfd9c2665b" />
+)
+<img width="1520" height="524" alt="image" src="https://github.com/user-attachments/assets/53935894-3b81-4964-a6bb-b36ce781b987" />
+<img width="1520" height="524" alt="image" src="https://github.com/user-attachments/assets/f212b2a7-a3b5-4fdf-a8c0-f337f2181054" />
+
 *Drill-down view for individual users, devices, or source IPs — event timeline, risk progression, and event type breakdown.*
 
-![Threat Analytics](docs/threat_analytics.png)
+![Threat Analytics](<img width="1520" height="619" alt="image" src="https://github.com/user-attachments/assets/a3a3d06e-33a5-4b9d-9e47-e5dba56a796f" />
+)
+<img width="1520" height="531" alt="image" src="https://github.com/user-attachments/assets/c2e2b817-d934-44e8-bda5-da32b6f8e49c" />
+<img width="1520" height="531" alt="image" src="https://github.com/user-attachments/assets/69eae011-221a-48a1-a236-79da7f585451" />
+<img width="1520" height="531" alt="image" src="https://github.com/user-attachments/assets/14ac3628-a0ef-4831-8769-033581ecc631" />
+<img width="1520" height="579" alt="image" src="https://github.com/user-attachments/assets/61984fa6-35d5-46ea-a8be-496d2de9f7b9" />
+
 *Detector agreement analysis, attack-type-by-detector heatmap, hourly attack distribution, and ground-truth accuracy metrics.*
 
 ---
