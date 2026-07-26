@@ -1,4 +1,3 @@
-<img width="1520" height="579" alt="image" src="https://github.com/user-attachments/assets/ea257daa-7a22-4f33-9383-3a12da882be4" /># AI-Powered Behavioral Anomaly Detection for Cybersecurity
 
 **Real-time enterprise threat detection through behavioral profiling, unsupervised machine learning, and deterministic rule evaluation.**
 
@@ -131,8 +130,6 @@ Detector agreement analysis, attack-type-by-detector heatmap, hourly attack dist
 ---
 
 ## System Architecture
-
-![Architecture](docs/architecture.png)
 
 ```mermaid
 flowchart TD
