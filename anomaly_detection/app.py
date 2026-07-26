@@ -211,7 +211,7 @@ def render_live_alerts(df: pd.DataFrame) -> None:
     ]
     existing_cols = [c for c in display_cols if c in filtered.columns]
     st.dataframe(
-        filtered[existing_cols].style.applymap(
+        filtered[existing_cols].style.map(
             lambda _: "background-color: #2d2d2d",
             subset=["risk_score"],
         ),
